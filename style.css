@@ -1,49 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
 
-body{
-    display: flex;
-}
-.main{
-    width: 500px;
-    height: 400px;
-    background-color: aquamarine;
-    border-radius: 25px;
-   
-}
-h1{
-    text-align: center;
-    padding-top: 50px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-
-}
-p {
-    text-align: center;
-
-}
-
-.input{
-    width: 300px;
-    height: 30px;
-    border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
-}
-.remember{
-    font-family: 'Roboto', sans-serif;
-    margin-left: 170px;
-}
-button{
-   margin-left: 100px;
-    background-color: tomato;
-    font-family: 'Roboto', sans-serif;
-    width: 300px;
-    height: 30px;
-    border-radius: 10px;
-
-}
-.main2{
+.cards{
     position: absolute;
-    background-color: turquoise;
-    border-radius: 10px;
-    left: 600px;
+    left: 50%;
+    top: 50px;
+    transform-origin: 50% 100%;
+}
+.cart1{
+    transform: rotateZ(-15deg);
+
+}
+.cart3{
+    transform: rotateZ(15deg);
+}
+.cards:hover{
+    z-index: 2;
 }
