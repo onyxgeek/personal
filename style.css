@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
 
+body{
+    display: flex;
+}
 .main{
     width: 500px;
     height: 400px;
     background-color: aquamarine;
     border-radius: 25px;
-    margin: 100px 500px;
+   
 }
 h1{
     text-align: center;
@@ -37,4 +40,10 @@ button{
     height: 30px;
     border-radius: 10px;
 
+}
+.main2{
+    position: absolute;
+    background-color: turquoise;
+    border-radius: 10px;
+    left: 600px;
 }
