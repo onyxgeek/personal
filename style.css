@@ -1,18 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
 
-.cards{
+body{
+    margin: 0;
+    padding: 0;
+}
+.h2{
     position: absolute;
-    left: 50%;
-    top: 50px;
-    transform-origin: 50% 100%;
-}
-.cart1{
-    transform: rotateZ(-15deg);
-
-}
-.cart3{
-    transform: rotateZ(15deg);
-}
-.cards:hover{
-    z-index: 2;
+    top:300px;
+    left: 600px;
+    font-family: Roboto;
+    font-size: 100px;
+    background-color:;
 }
